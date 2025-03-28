@@ -224,7 +224,7 @@ class SearchTool(QMainWindow):
         try:
             result = writeData(
                 VCM,
-                hex(SAVE_NVM),  # 0x2107
+                hex(SAVE_NVM),  
                 'u8',           # 8-bit value
                 'Technician',
                 '0-1',         # Range
